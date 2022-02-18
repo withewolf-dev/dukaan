@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'gal-medium';
+    src: url('/fonts/galanogrotesque-medium.otf') format('otf');
+  }
+  ,
+  @font-face {
+    font-family: 'gal-regular';
+    src: url('/fonts/galanogrotesque-regula.otf') format('otf');
+  }
+  ,
+  @font-face {
+    font-family: 'gal-semibold';
+    src: url('/fonts/galanogrotesque-semibold.otf') format('otf');
+  }
+}
