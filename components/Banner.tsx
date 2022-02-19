@@ -6,7 +6,17 @@ const Banner = (props: Props) => {
   return (
     <div className="h-[328px]  bg-primary-blue">
       <div className="flex justify-center">
-        <div className="w-[1120px]">banner</div>
+        <div className="flex w-[1120px] justify-between pt-6">
+          <img src="/white.svg" />
+          <div className=" flex items-center">
+            <p className="font-gal text-[18px] font-normal text-white">
+              Sign in
+            </p>
+            <button className="ml-8 rounded-sm bg-white py-3 px-6 font-galMedium text-[#146EB4]">
+              Download for PC
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   )

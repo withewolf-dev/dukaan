@@ -42,7 +42,7 @@ export default SloganMaker
 export const Container = (props) => {
   return (
     <div className="flex justify-center">
-      <div className="absolute top-[134px]  h-auto w-[1120px] rounded-md bg-white pb-5 shadow-lg">
+      <div className="absolute  top-[134px] h-[1880px] w-[1120px] rounded-md bg-white pb-5 shadow-lg">
         <div className="px-[192px] pt-[64px]">{props.children}</div>
       </div>
     </div>
