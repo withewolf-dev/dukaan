@@ -12,7 +12,7 @@ const Banner = (props: Props) => {
             <p className="font-gal text-[18px] font-normal text-white">
               Sign in
             </p>
-            <button className="ml-8 rounded-sm bg-white py-3 px-6 font-galMedium text-[#146EB4]">
+            <button className="ml-8 rounded-md bg-white py-3 px-6 font-galMedium text-[#146EB4]">
               Download for PC
             </button>
           </div>

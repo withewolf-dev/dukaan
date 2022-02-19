@@ -4,7 +4,7 @@ type Props = {}
 
 const FreeProduct = (props: Props) => {
   return (
-    <div className="bg-[#ffffff] px-[60px] pt-[80px] pb-24">
+    <div className="bg-[#ffffff] px-[160px] pt-[80px] pb-24">
       <p className="font-gal text-3xl font-semibold tracking-tighter">
         Try our other free products
       </p>

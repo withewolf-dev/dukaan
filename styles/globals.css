@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-[#FAFAFA];
+  }
+
+  ,
   @font-face {
     font-family: 'gal-medium';
     src: url('/fonts/galanogrotesque-medium.otf') format('otf');

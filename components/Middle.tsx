@@ -3,7 +3,7 @@ type Props = {}
 
 const Middle = (props: Props) => {
   return (
-    <div className="item flex h-[374px] justify-between bg-[#f2f7fb] px-[160px] pt-[70px]  ">
+    <div className="item  flex h-[374px] justify-between bg-[#f2f7fb] px-[160px] pt-[70px]  ">
       <div className=" flex w-[352px] flex-col items-center justify-center  ">
         <img src="/3.svg" className="h-12 w-12" />
         <p className="pt-[36px] font-gal text-lg">Search</p>

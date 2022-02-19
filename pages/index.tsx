@@ -16,7 +16,7 @@ export default function Home() {
       <main className="">
         <Banner />
         <SloganMaker />
-        <div className="mt-[1800px]">
+        <div className="mt-[1900px]">
           <Middle />
           <FreeProduct />
           <Footer />
